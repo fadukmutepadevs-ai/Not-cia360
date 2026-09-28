@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  html {
+    font-family: var(--font-system);
+    text-rendering: optimizeSpeed;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+  }
+
+  /* Prevent layout shifts */
+  img {
+    content-visibility: auto;
+  }
+}
+
+/* Accessibility and reading focus */
+.reader-content p {
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
+}

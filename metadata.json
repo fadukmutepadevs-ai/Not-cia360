@@ -1,0 +1,6 @@
+{
+  "name": "Notícia360",
+  "description": "Portal de notícias moderno, simples, responsivo e ultra-rápido. Informação rápida. O mundo em foco.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
